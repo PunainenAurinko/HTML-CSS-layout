@@ -6,11 +6,35 @@
 
   <title>Clearfix</title>
 
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css" media="screen" type="text/css">
 
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
+    <header>
+        <h1>Clearfix lesson</h1>
+    </header>
+    
+    <div class="wrapper">
+        <h2>Test wrapper</h2>
+        <section class="col-container clearfix">
+            <div class="col-2">
+                <article class="sub-article">
+                    <h3>Col-2</h3>
+                    <p>This is a two-column layout. This is one of the Col-2.</p>
+                </article>
+            </div>
+            <div class="col-2">
+                <article class="sub-article">
+                    <h3>Col-2</h3>
+                    <p>This is a two-column layout. This is one of the Col-2.</p>
+                </article>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+    <p>&copy Zero Meaning, Inc. 2014</p>
+    </footer>
 </body>
 </html>
