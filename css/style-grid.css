@@ -74,6 +74,7 @@ header, footer {
 
 @media screen and (min-width: 600px){
     /* -- 29.33 + 29.33 + 29.33 = 87.99% -- */
+    /* -- 6 + 6 = 12% -- */
     .col-3 {
         float: left;
         width: 29.33%;
@@ -94,10 +95,9 @@ header, footer {
 }
 
 @media screen and (min-width: 600px){
-    /* -- margin: 6 + 6 + 6 + 6 -- */
-    /* -- margin: 6 + 6 + 6 + 6 -- */
-    /* -- margin: 6 + 6 + 6 + 6 -- */
-    /* -- margin: 6 + 6 + 6 + 6 -- */
+    /* -- margin: 6 + 6 + 6 = 18% */
+	/* remaining space = 82 */
+	/* 82 / 4 = 20.5% */
     .col-4 {
         float: left;
         width: 20.5%;
