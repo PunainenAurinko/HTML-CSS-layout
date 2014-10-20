@@ -22,14 +22,9 @@ html[xmlns] .clearfix {
     height: 1%;
 }
 
-    body {
-    
-}
-
 .wrapper{
     max-width: 1024px;
     margin: 0 auto;
-   
 }
 
 header, footer {
